@@ -5,6 +5,9 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import ThemeToggle from "./components/ThemeToggle";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
+import Certificates from "./components/Certificates";
 
 function App() {
   return (
@@ -25,9 +28,20 @@ function App() {
           {" "}
           <Projects />{" "}
         </div>
+
         <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-xl">
           {" "}
-          <Contact />{" "}
+          <Education />{" "}
+        </div>
+
+        <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-xl">
+          {" "}
+          <Experience />{" "}
+        </div>
+
+        <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-xl">
+          {" "}
+          <Certificates />{" "}
         </div>
       </div>
     </div>
