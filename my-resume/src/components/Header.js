@@ -3,7 +3,7 @@ function Header() {
     return (
       <div className="flex items-center gap-6">
         <img
-          src="/my-avatar.png"
+          src={process.env.PUBLIC_URL + "/my-avatar.png"}
           alt="avatar"
           className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover border-2 border-blue-500 shadow-md"
         />
